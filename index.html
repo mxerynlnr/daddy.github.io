@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+    <title>Happy Birthday, Dad</title>
+</head>
+<body>
+    <main class="birthday-page">
+        <div class="confetti-field" aria-hidden="true">
+            <span class="confetti confetti--gold"></span>
+            <span class="confetti confetti--coral"></span>
+            <span class="confetti confetti--mint"></span>
+            <span class="confetti confetti--blue"></span>
+            <span class="confetti confetti--gold"></span>
+            <span class="confetti confetti--coral"></span>
+            <span class="confetti confetti--mint"></span>
+            <span class="confetti confetti--blue"></span>
+            <span class="confetti confetti--gold"></span>
+            <span class="confetti confetti--coral"></span>
+            <span class="confetti confetti--mint"></span>
+            <span class="confetti confetti--blue"></span>
+            <span class="confetti confetti--gold"></span>
+            <span class="confetti confetti--coral"></span>
+            <span class="confetti confetti--mint"></span>
+            <span class="confetti confetti--blue"></span>
+            <span class="confetti confetti--gold"></span>
+            <span class="confetti confetti--coral"></span>
+            <span class="confetti confetti--mint"></span>
+            <span class="confetti confetti--blue"></span>
+        </div>
+
+        <section class="welcome-card" id="welcome-screen" aria-labelledby="birthday-title">
+            <p class="eyebrow">A little celebration for the BEST DAD in the whole world</p>
+            <h1 id="birthday-title">Happy Birthday,<br><span>Daddy</span></h1>
+            <p class="intro">Press start when you’re ready for your birthday surprise.</p>
+            <button class="start-button" id="start-button" type="button">
+                <span>Start</span>
+                <span class="button-arrow" aria-hidden="true">&#8594;</span>
+            </button>
+            <p class="signature">With love, always</p>
+        </section>
+
+        <section class="envelope-screen" id="envelope-screen" aria-labelledby="envelope-title" hidden>
+            <div class="envelope-heading">
+                <p class="eyebrow">A message, sealed with love</p>
+                <h2 id="envelope-title">For you, Daddy</h2>
+                <p class="envelope-instruction">There is something special waiting inside.</p>
+            </div>
+
+            <div class="envelope-button" id="envelope-button" role="button" tabindex="0" aria-label="Open your birthday letter">
+                <span class="envelope" aria-hidden="true">
+                    <article class="letter" id="letter" aria-live="polite" aria-hidden="true">
+                        <p class="letter-label">A birthday letter</p>
+                        <h3>Happy 50th Birthday, Daddy!</h3>
+                        <p class="letter-placeholder">To my most caring dad, my role model, and my hero, I want to take this opportunity to express my heartfelt gratitude and love for you. You have been a constant source of support, guidance, and inspiration in my life, and I am truly blessed to have you as my father. Today, you reach a milestone, I may not be there to celebrate with you in person, but I want you to know that my thoughts and love are with you on this special day. I pray that you will be blessed with good health, happiness, peace, and many more years with our family.
+                            
+                            May you continue to enjoy life, make wonderful memories, and achieve the things you still dream of.You are one of the people I look up to the most, and I hope that someday I can make you as proud of me as I am proud to call you my father.
+
+Happy 50th Birthday, Dad! I love you so much, and I am truly thankful for everything you have done and continue to do for our family.</p>
+                        <p class="letter-signature">With all my love,
+                            Ren ren
+                        </p>
+                    </article>
+                    <span class="envelope-flap"></span>
+                    <span class="envelope-front"></span>
+                    <span class="envelope-seal">&#10022;</span>
+                </span>
+            </div>
+
+            <p class="envelope-hint" id="envelope-hint">Click the envelope to open it</p>
+
+            <button class="album-toggle" id="album-toggle" type="button" aria-expanded="false" aria-controls="album-screen">
+                <span class="album-icon" aria-hidden="true">&#10022;</span>
+                <span>Open our memory album</span>
+            </button>
+        </section>
+
+        <section class="album-screen" id="album-screen" aria-labelledby="album-title" tabindex="-1" hidden>
+            <div class="album-heading">
+                <p class="eyebrow">cherished memories</p>
+                <h2 id="album-title">With my Dad</h2>
+            </div>
+            <div class="polaroid-carousel" aria-label="Memory album carousel">
+                <div class="polaroid-track">
+                    <figure class="polaroid polaroid--one">
+                        <img class="photo-image" src="Images/one.jpg" alt="Family memory one">
+                        <figcaption>A moment to remember</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--two">
+                        <img class="photo-image" src="Images/two.jpg" alt="Family memory two">
+                        <figcaption>Always making memories</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--three">
+                        <img class="photo-image" src="Images/three.jpg" alt="Family memory three">
+                        <figcaption>Best days with you</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--four">
+                        <img class="photo-image" src="Images/four.jpg" alt="Family memory four">
+                        <figcaption>Home is wherever you are</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--five">
+                        <img class="photo-image" src="Images/five.jpg" alt="Family memory five">
+                        <figcaption>Love, always</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--six">
+                        <img class="photo-image" src="Images/six.jpg" alt="Family memory six">
+                        <figcaption>Our sweetest stories</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--seven">
+                        <img class="photo-image" src="Images/seven.jpg" alt="Family memory seven">
+                        <figcaption>Side by side</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--eight">
+                        <img class="photo-image" src="Images/eight.jpg" alt="Family memory eight">
+                        <figcaption>Another day to keep</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--nine">
+                        <img class="photo-image" src="Images/nine.jpg" alt="Family memory nine">
+                        <figcaption>Forever grateful</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--one" aria-hidden="true">
+                        <img class="photo-image" src="Images/one.jpg" alt="">
+                        <figcaption>A moment to remember</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--two" aria-hidden="true">
+                        <img class="photo-image" src="Images/two.jpg" alt="">
+                        <figcaption>Always making memories</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--three" aria-hidden="true">
+                        <img class="photo-image" src="Images/three.jpg" alt="">
+                        <figcaption>Best days with you</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--four" aria-hidden="true">
+                        <img class="photo-image" src="Images/four.jpg" alt="">
+                        <figcaption>Home is wherever you are</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--five" aria-hidden="true">
+                        <img class="photo-image" src="Images/five.jpg" alt="">
+                        <figcaption>Love, always</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--six" aria-hidden="true">
+                        <img class="photo-image" src="Images/six.jpg" alt="">
+                        <figcaption>Our sweetest stories</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--seven" aria-hidden="true">
+                        <img class="photo-image" src="Images/seven.jpg" alt="">
+                        <figcaption>Side by side</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--eight" aria-hidden="true">
+                        <img class="photo-image" src="Images/eight.jpg" alt="">
+                        <figcaption>Another day to keep</figcaption>
+                    </figure>
+                    <figure class="polaroid polaroid--nine" aria-hidden="true">
+                        <img class="photo-image" src="Images/nine.jpg" alt="">
+                        <figcaption>Forever grateful</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <p class="carousel-hint"></p>
+        </section>
+
+        <div class="corner-note" aria-hidden="true">MAKE A WISH</div>
+    </main>
+</body>
+</html>
